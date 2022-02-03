@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fixed top navbar example · Bootstrap v5.0</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="navbar-top-fixed.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="middle ">
+    <div class="text">
+      <h1>Driving alone hurts your wallet and your health.</h1>
+      <p class="small-txt">Share and save.</p>
+    </div>
+    <div class="middle-box">
+      <h3>Your everyday travel partner</h3>
+      <p>AC Cabs for point to point travel</p>
+      <div class="l">
+        <div class="button">
+          <div class="tt">pickup</div>
+          <input type="text" placeholder="current location">
+        </div>
+        <div class="button">
+          <div class="tt">pickup</div>
+          <input type="text" placeholder="current location">
+        </div>
+        <div class="button">
+          <div class="tt">pickup</div>
+          <input type="text" placeholder="current location">
+        </div>
+
+        <button class="bt">
+          Search Cabs
+        </button>
+      </div>
+
+
+    </div>
+  </div>
+  <h1 class="grid-header">Why ride with us?</h1>
+  <p class="grid-para">-the best way to travel to your destination</p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 grid">
+        <img src="https://cms-web.olacabs.com/00000000368.jpg" alt="1_img">
+        <h4>Cabs for Every Pocket</h4>
+        <p>From Sedans and SUVs to Luxury cars for special occasions, we have cabs to suit every pocket</p>
+      </div>
+      <div class="col-lg-6 grid">
+        <img src="https://cms-web.olacabs.com/00000000370.jpg" alt="2_img">
+        <h4>Secure and Safer Rides</h4>
+        <p>Verified drivers, an emergency alert button, and live ride tracking are some of the features that we have in
+          place to ensure you a safe travel experience.</p>
+      </div>
+      <div class="col-lg-6 grid">
+        <img src="https://cms-web.olacabs.com/00000000374.jpg" alt="3_img">
+        <h4>Ola Select</h4>
+        <p>A membership program with Ola that lets you ride a Prime Sedan at Mini fares, book cabs without peak pricing
+          and has zero wait time</p>
+      </div>
+      <div class="col-lg-6 grid">
+        <img src="https://cms-web.olacabs.com/00000000371.jpg" alt="4_img">
+        <h4>In Cab Entertainment</h4>
+        <p>Play music, watch videos and a lot more with Ola Play! Also stay connected even if you are travelling through
+          poor network areas with our free wifi facility</p>
+      </div>
+      <div class="col-lg-6 grid">
+        <img src="https://cms-web.olacabs.com/00000000382.jpg" alt="5_img">
+        <h4>Share and Express</h4>
+        <p>To travel with the lowest fares choose Ola Share. For a faster travel experience we have Share Express on
+          some fixed routes with zero deviations. Choose your ride and zoom away!</p>
+      </div>
+      <div class="col-lg-6 grid">
+        <img src="https://cms-web.olacabs.com/00000000372.jpg" alt="6_img">
+        <h4>Cashless Rides</h4>
+        <p>Now go cashless and travel easy. Simply recharge your Ola money or add your credit/debit card to enjoy hassle
+          free payments.</p>
+
+
+      </div>
+    </div>
+  </div>
+  <div id="image-slider" class="splide">
+    <div class="splide__track">
+
+      <ul class="splide__list">
+
+        <li class="splide__slide">
+          <img data-splide-lazy="bike.png" alt="">
+          <div class="yy">
+            <div class="zz">
+              <h4 class="heading">
+                Bike
+              </h4>
+              <div class="subtitle">
+                On Time, Every time.
+              </div>
+
+              Hate waiting in the snarling traffic each day? Not anymore as with Ola Bike you can now reduce your travel
+              time by at least 50%. Simply book a bike with a tap of a button and ride away within minutes and all this
+              at the most affordable rates in town!
+
+
+
+
+
+
+
+
+              <div class="info">
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </li>
+        <li class="splide__slide">
+          <img data-splide-lazy="kaali-peeli.png">
+          <div class="yy">
+            <div class="zz">
+              <h4 class="heading">
+                Kaali Peeli
+              </h4>
+              <div class="subtitle">
+                Haggle-free cashless rides
+              </div>
+
+
+              This offering by Ola allows you to book a local black-yellow cab like any other Ola cab.
+
+
+
+
+
+
+
+
+
+              <div class="info">
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </li>
+        <li class="splide__slide">
+          <img data-splide-lazy="lux.png">
+          <div class="yy">
+            <div class="zz">
+              <h4 class="heading">
+                Lux
+              </h4>
+              <div class="subtitle">
+                The new luxury ride in town
+              </div>
+
+
+
+              Top-of-the-line luxury cars like Mercedes, BMW, and Audis powered by auto-connect Wi-Fi, at unbeatable
+              fares &amp; attractive hourly rental packages.
+
+
+
+
+
+
+
+
+
+
+              <div class="info">
+
+              </div>
+
+
+
+            </div>
+          </div>
+        </li>
+        <li class="splide__slide">
+          <img data-splide-lazy="prime-play.png">
+          <div class="yy">
+            <div class="zz">
+              <h4 class="heading">
+                Prime Play
+              </h4>
+              <div class="subtitle">
+                Enjoy music, radio, videos on the go
+              </div>
+
+
+
+
+              Cars with in-cab entertainment consoles that allow you to watch movies, listen to music and stay connected
+              while on the move.
+
+
+
+
+
+
+
+
+
+
+
+              <div class="info">
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </li>
+        <li class="splide__slide">
+          <img data-splide-lazy="prime-suv.png">
+          <div class="yy">
+            <div class="zz">
+              <h4 class="heading">
+                Prime SUV
+              </h4>
+              <div class="subtitle">
+                SUVs with free Wi-Fi and top drivers
+              </div>
+
+
+
+
+
+              A perfect choice of car for your weekend getaways, with plenty of room for everyone including that extra
+              bag.
+
+
+
+
+
+
+
+
+
+
+
+
+              <div class="info">
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="contact">
+    <i class="fab fa-twitter fa-lg"></i>
+    <i class="fab fa-instagram fa-lg"></i>
+    <i class="fab fa-facebook-square fa-lg"></i>
+    <i class="fab fa-linkedin fa-lg"></i>
+    <p>Made   with  💖  by   myteam</p>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Splide("#image-slider", {
+        type: "loop",
+        autoplay: true,
+        pagination: false,
+
+        lazyLoad: true,
+        interval: 5000,
+        speed: 1000,
+        width: "100%",
+        rewind: false,
+        padding: "0%",
+        drag: false,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+      }).mount();
+    });
+  </script>
+
+
+</body>
+
+</html>
